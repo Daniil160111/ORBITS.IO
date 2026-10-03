@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "rootAssets": [
+    { "key": "disclaimer",    "url": "./Текстуры/Меню/D1.jpg" },
+    { "key": "bg_loading",    "url": "./Текстуры/Меню/Load1.jpg" },
+    { "key": "music_loading", "url": "./Звуки/Меню/Startup.mp3" },
+    { "key": "error_snd",     "url": "./Звуки/Система/Error.wav" },
+    { "key": "continue_snd",  "url": "./Звуки/Система/Button.wav" }
+  ],
+
+  "blocks": [
+    {
+      "path": "./menu.js",
+      "assets": [
+        { "key": "menu_bg",       "url": "./Текстуры/Меню/Фон1.jpg" },
+        { "key": "menu_flag",     "url": "./Текстуры/Меню/Флаг2.jpg" },
+        { "key": "menu_music",    "url": "./Звуки/Меню/Титульный.mp3" },
+        { "key": "menu_sfx_tap",  "url": "./Звуки/Система/Tap-to-screen.wav" },
+        { "key": "menu_sfx_btn",  "url": "./Звуки/Система/Button.wav" }
+      ]
+    },
+    {
+      "path": "./settings.js",
+      "assets": [
+        { "key": "set_bg",       "url": "./Текстуры/Меню/Фонменю.jpg" },
+        { "key": "set_music",    "url": "./Звуки/Меню/Н1-1.mp3" },
+        { "key": "set_sfx_btn",  "url": "./Звуки/Система/Button.wav" },
+        { "key": "set_sfx_set",  "url": "./Звуки/Система/Setting.wav" },
+        { "key": "set_sfx_save", "url": "./Звуки/Система/Save.wav" },
+        { "key": "set_sfx_back", "url": "./Звуки/Система/Back.wav" }
+      ]
+    },
+    { "path": "./troll.js", "assets": [] },
+    { "path": "./select.js", "assets": [] },
+    { "path": "./loading.js", "assets": [] },
+    { "path": "./score.js", "assets": [] },
+    { "path": "./records.js", "assets": [] },
+    { "path": "./unlock.js", "assets": [] },
+
+    { "path": "./map1.js",  "assets": [
+      { "key": "map1_music",    "url": "./Звуки/Карты/Map1.mp3" },
+      { "key": "map1_front",    "url": "./Звуки/Карты/Map1front.mp3" }
+    ]},
+    { "path": "./map2.js",  "assets": [
+      { "key": "map2_music",    "url": "./Звуки/Карты/Map2.mp3" },
+      { "key": "map2_front",    "url": "./Звуки/Карты/Map2front.mp3" }
+    ]},
+    { "path": "./map3.js",  "assets": [
+      { "key": "map3_music",    "url": "./Звуки/Карты/Map3.mp3" },
+      { "key": "map3_front",    "url": "./Звуки/Карты/Map3front.mp3" }
+    ]},
+    { "path": "./map4.js",  "assets": [
+      { "key": "map4_music",    "url": "./Звуки/Карты/Map4.mp3" },
+      { "key": "map4_front",    "url": "./Звуки/Карты/Map4front.mp3" }
+    ]},
+    { "path": "./map5.js",  "assets": [
+      { "key": "map5_1",         "url": "./Звуки/Карты/Map5-1.mp3" },
+      { "key": "map5_1front",    "url": "./Звуки/Карты/Map5-1front.mp3" },
+      { "key": "map5_2",         "url": "./Звуки/Карты/Map5-2.mp3" },
+      { "key": "map5_2front",    "url": "./Звуки/Карты/Map5-2front.mp3" },
+      { "key": "map5_3",         "url": "./Звуки/Карты/Map5-3.mp3" },
+      { "key": "map5_3front",    "url": "./Звуки/Карты/Map5-3front.mp3" },
+      { "key": "map5_4",         "url": "./Звуки/Карты/Map5-4.mp3" },
+      { "key": "map5_4front",    "url": "./Звуки/Карты/Map5-4front.mp3" }
+    ]},
+    { "path": "./map6.js",  "assets": [
+      { "key": "map6_music",    "url": "./Звуки/Карты/Map6.mp3" },
+      { "key": "map6_front",    "url": "./Звуки/Карты/Map6front.mp3" }
+    ]},
+    { "path": "./map7.js",  "assets": [
+      { "key": "map7_music",    "url": "./Звуки/Карты/Map7.mp3" },
+      { "key": "map7_front",    "url": "./Звуки/Карты/Map7front.mp3" }
+    ]},
+    { "path": "./map8.js",  "assets": [
+      { "key": "map8_music",    "url": "./Звуки/Карты/Map8.mp3" },
+      { "key": "map8_front",    "url": "./Звуки/Карты/Map8front.mp3" }
+    ]},
+    { "path": "./map9.js",  "assets": [
+      { "key": "map9_music",    "url": "./Звуки/Карты/Map9.mp3" },
+      { "key": "map9_front",    "url": "./Звуки/Карты/Map9front.mp3" }
+    ]},
+    { "path": "./map10.js", "assets": [
+      { "key": "map10_1",       "url": "./Звуки/Карты/Map10-1.mp3" },
+      { "key": "map10_1front",  "url": "./Звуки/Карты/Map10-1front.mp3" },
+      { "key": "map10_2",       "url": "./Звуки/Карты/Map10-2.mp3" },
+      { "key": "map10_2front",  "url": "./Звуки/Карты/Map10-2front.mp3" }
+    ]},
+    { "path": "./map11.js", "assets": [
+      { "key": "map11_music",   "url": "./Звуки/Карты/Map11.mp3" }
+    ]},
+    { "path": "./map12.js", "assets": [
+      { "key": "map12_music",   "url": "./Звуки/Карты/Map12.mp3" }
+    ]}
+  ],
+
+  "menuEntry": "./menu.js"
+}
